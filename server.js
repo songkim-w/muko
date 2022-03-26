@@ -12,14 +12,14 @@ app.get('/', function(req, res){
     res.sendFile(__dirname + '/index.html')
 });
 
-app.get('/rooms', function(req, res){
+app.get('/muko/rooms', function(req, res){
     res.render('rooms.ejs');
 });
 
-app.get('/about', function(req, res){
+app.get('/muko/about', function(req, res){
     res.render('about.ejs');
 });
 
-app.get('/amenities', function(req, res){
+app.get('/muko/amenities', function(req, res){
     res.render('amenities.ejs');
 });
