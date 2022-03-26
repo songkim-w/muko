@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>MUKO resort</title>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../public/default.css">
+        <link rel="stylesheet" href="../public/main.css">
+        <link rel="stylesheet" href="../public/rooms.css">
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.2.0/css/all.css">
+    </head>
+    <body>
+        <%- include('nav.html') %>
+    
+        <section class="rooms-0">
+            <h2>rooms</h2>
+            <div class="book">
+                <div class="check-in">
+                    <p class="book-title">check-in</p>
+                    <div><input type="date"></div>
+                </div>
+                <div class="check-out">
+                    <p class="book-title">check-out</p>
+                    <div><input type="date"></div>
+                </div>
+                <div class="adults">
+                    <p class="book-title">adults</p>
+                    <select name="adults">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </div>
+                <div class="children">
+                    <p class="book-title">children</p>
+                    <select name="children">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </div>
+                <button><a href="">book now</a></button>
+            </div>
+        </section>
+
+        <div>
+            <ul class="list">
+                <li class="tab-button active">Forestview Room</li>
+                <li class="tab-button">Lakeview Room</li>
+                <li class="tab-button">cozy room</li>
+                <li class="tab-button">cottage</li>
+            </ul>
+        </div>
+
+        <div class="tab-content show">
+            <section class="rooms-1">
+                <h2 class="observer-ready"> Forestview rooms </h2>
+                <p class="rooms-1-desc observer-ready">MUKO promises beautiful moments, promises exciting experiences, and shining memories like shining lakes in Muskoka.</p>
+                <div class="room-1-detail observer-ready">
+                    <div class="pic">
+                        <div>
+                            <img class="room-img-0" src="/public/img/room-0.jpg" alt="">
+                        </div>
+                        <ul class="img-btn">
+                            <li class="dot" data-dot='true'></li>
+                            <li class="dot" data-dot='false'></li>
+                            <li class="dot" data-dot='false'></li>
+                            <li class="dot" data-dot='false'></li>
+                        </ul>
+                    </div>
+                    <div class="text observer-ready">
+                        <p>Praesent magna purus, pellentesque ac ante et, efficitur sodales nibh. Maecenas at accumsan nisl. Curabitur mi nisi, feugiat non dapibus id, tempus vel velit. Praesent in ornare ante, in accumsan erat. Pellentesque nibh augue, efficitur non massa sit amet, faucibus commodo metus. Vestibulum sollicitudin ligula sit amet libero vehicula, et maximus diam dictum. Nunc quis suscipit augue, vitae euismod nunc.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="rooms-2">
+                <h2 class="observer-ready"> amenities </h2>
+                <div class="amenities observer-ready">
+                    <div class="amenities-left">
+                        <p>
+                            " Not just a resort, an experience to enjoy "
+                        </p> 
+                    </div>
+                    <div class="amenities-right">
+                        <div>
+                            <img src="../public/img/icons/wifi.png" alt="">
+                            <p>wifi</p>
+                        </div>
+                        <div>
+                            <img src="../public/img/icons/kitchen.png" alt="">
+                            <p>Kitchenette</p>
+                        </div>
+                        <div>
+                            <img src="../public/img/icons/airconditioner.png" alt="">
+                            <p>air conditioner</p>
+                        </div>
+                        <div>
+                            <img src="../public/img/icons/coffee.png" alt="">
+                            <p>coffee machine</p>
+                        </div>
+                        <div>
+                            <img src="../public/img/icons/tv.png" alt="">
+                            <p>43Inch TV</p>
+                        </div>
+                        <div>
+                            <img src="../public/img/icons/balcony.png" alt="">
+                            <p>balcony</p>
+                        </div>
+                        <div>
+                            <img src="../public/img/icons/bath.png" alt="">
+                            <p>bath tub</p>
+                        </div>
+                        <div>
+                            <img src="../public/img/icons/hairdryer.png" alt="">
+                            <p>hair dryer</p>
+                        </div>
+                        <div>
+                            <img src="../public/img/icons/nosmoking.png" alt="">
+                            <p>no smoking</p>
+                        </div>
+                        <div>
+                            <img src="../public/img/icons/petfriendly.png" alt="">
+                            <p>pet friendly</p>
+                        </div>       
+                    </div>
+                </div>
+            </section>
+
+
+        </div>
+        <div class="tab-content">
+            <section class="rooms-1">
+                <h2 class="observer-ready"> Lakeview rooms </h2>
+                <p class="rooms-1-desc observer-ready">MUKO promises beautiful moments, promises exciting experiences, and shining memories like shining lakes in Muskoka.</p>
+                <div class="room-1-detail observer-ready">
+                    <div class="pic">
+                        <div>
+                            <img class="room-img-1" src="/public/img/room-4.jpg" alt="">
+                        </div>
+                        <ul class="img-btn">
+                            <li class="dot" data-dot='false'></li>
+                            <li class="dot" data-dot='false'></li>
+                            <li class="dot" data-dot='false'></li>
+                            <li class="dot" data-dot='false'></li>
+                            <li class="dot" data-dot='false'></li>
+                        </ul>
+                    </div>
+                    <div class="text observer-ready" style="background-color: #467495; ">
+                        <p>Praesent magna purus, pellentesque ac ante et, efficitur sodales nibh. Maecenas at accumsan nisl. Curabitur mi nisi, feugiat non dapibus id, tempus vel velit. Praesent in ornare ante, in accumsan erat. Pellentesque nibh augue, efficitur non massa sit amet, faucibus commodo metus. Vestibulum sollicitudin ligula sit amet libero vehicula, et maximus diam dictum. Nunc quis suscipit augue, vitae euismod nunc.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="rooms-2">
+                <h2 class="observer-ready"> amenities </h2>
+                <div class="amenities observer-ready">
+                    <div class="amenities-left">
+                        <p>
+                            " Not just a resort, an experience to enjoy "
+                        </p> 
+                    </div>
+                    <div class="amenities-right">
+                        <div>
+                            <img src="../public/img/icons/wifi.png" alt="">
+                            <p>wifi</p>
+                        </div>
+                        <div>
+                            <img src="../public/img/icons/kitchen.png" alt="">
+                            <p>Kitchenette</p>
+                        </div>
+                        <div>
+                            <img src="../public/img/icons/airconditioner.png" alt="">
+                            <p>air conditioner</p>
+                        </div>
+                        <div>
+                            <img src="../public/img/icons/coffee.png" alt="">
+                            <p>coffee machine</p>
+                        </div>
+                        <div>
+                            <img src="../public/img/icons/tv.png" alt="">
+                            <p>43Inch TV</p>
+                        </div>
+                        <div>
+                            <img src="../public/img/icons/balcony.png" alt="">
+                            <p>balcony</p>
+                        </div>
+                        <div>
+                            <img src="../public/img/icons/bath.png" alt="">
+                            <p>bath tub</p>
+                        </div>
+                        <div>
+                            <img src="../public/img/icons/hairdryer.png" alt="">
+                            <p>hair dryer</p>
+                        </div>
+                        <div>
+                            <img src="../public/img/icons/nosmoking.png" alt="">
+                            <p>no smoking</p>
+                        </div>
+                        <div>
+                            <img src="../public/img/icons/petfriendly.png" alt="">
+                            <p>pet friendly</p>
+                        </div>       
+                    </div>
+                </div>
+            </section>
+         
+        </div>
+        <div class="tab-content">
+            <section class="rooms-1">
+                <h2 class="observer-ready"> Cozy rooms </h2>
+                <p class="rooms-1-desc observer-ready">MUKO promises beautiful moments, promises exciting experiences, and shining memories like shining lakes in Muskoka.</p>
+                <div class="room-1-detail observer-ready">
+                    <div class="pic">
+                        <div>
+                            <img class="room-img-2"src="/public/img/room-9.jpg" alt="">
+                        </div>
+                        <ul class="img-btn">
+                            <li class="dot" data-dot='false'></li>
+                            <li class="dot" data-dot='false'></li>
+                            <li class="dot" data-dot='false'></li>
+                            <li class="dot" data-dot='false'></li>
+                        </ul>
+                    </div>
+                    <div class="text observer-ready" style="background-color: #F2E2CE; color: #073032;">
+                        <p>Praesent magna purus, pellentesque ac ante et, efficitur sodales nibh. Maecenas at accumsan nisl. Curabitur mi nisi, feugiat non dapibus id, tempus vel velit. Praesent in ornare ante, in accumsan erat. Pellentesque nibh augue, efficitur non massa sit amet, faucibus commodo metus. Vestibulum sollicitudin ligula sit amet libero vehicula, et maximus diam dictum. Nunc quis suscipit augue, vitae euismod nunc.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="rooms-2">
+                <h2 class="observer-ready"> amenities </h2>
+                <div class="amenities observer-ready">
+                    <div class="amenities-left">
+                        <p>
+                            " Not just a resort, an experience to enjoy "
+                        </p> 
+                    </div>
+                    <div class="amenities-right">
+                        <div>
+                            <img src="../public/img/icons/wifi.png" alt="">
+                            <p>wifi</p>
+                        </div>
+                        <div>
+                            <img src="../public/img/icons/minibar.png" alt="">
+                            <p>mini bar</p>
+                        </div>
+                        <div>
+                            <img src="../public/img/icons/airconditioner.png" alt="">
+                            <p>air conditioner</p>
+                        </div>
+                        <div>
+                            <img src="../public/img/icons/coffee.png" alt="">
+                            <p>coffee machine</p>
+                        </div>
+                        <div>
+                            <img src="../public/img/icons/tv.png" alt="">
+                            <p>43Inch TV</p>
+                        </div>
+                        <div>
+                            <img src="../public/img/icons/balcony.png" alt="">
+                            <p>balcony</p>
+                        </div>
+                        <div>
+                            <img src="../public/img/icons/bath.png" alt="">
+                            <p>bath tub</p>
+                        </div>
+                        <div>
+                            <img src="../public/img/icons/hairdryer.png" alt="">
+                            <p>hair dryer</p>
+                        </div>
+                        <div>
+                            <img src="../public/img/icons/nosmoking.png" alt="">
+                            <p>no smoking</p>
+                        </div>
+                        <div>
+                            <img src="../public/img/icons/petfriendly.png" alt="">
+                            <p>pet friendly</p>
+                        </div>       
+                    </div>
+                </div>
+            </section>
+       
+        </div>
+        <div class="tab-content">
+            <section class="rooms-1">
+                <h2 class="observer-ready"> Cottage </h2>
+                <p class="rooms-1-desc observer-ready">MUKO promises beautiful moments, promises exciting experiences, and shining memories like shining lakes in Muskoka.</p>
+                <div class="room-1-detail observer-ready">
+                    <div class="pic">
+                        <div>
+                            <img class="room-img-3"src="/public/img/room-13.jpg" alt="">
+                        </div>
+                        <ul class="img-btn">
+                            <li class="dot" data-dot='false'></li>
+                            <li class="dot" data-dot='false'></li>
+                            <li class="dot" data-dot='false'></li>
+                            <li class="dot" data-dot='false'></li>
+                        </ul>
+                    </div>
+                    <div class="text observer-ready" style="background-color: #D9BBA0; color: #073032;">
+                        <p>Praesent magna purus, pellentesque ac ante et, efficitur sodales nibh. Maecenas at accumsan nisl. Curabitur mi nisi, feugiat non dapibus id, tempus vel velit. Praesent in ornare ante, in accumsan erat. Pellentesque nibh augue, efficitur non massa sit amet, faucibus commodo metus. Vestibulum sollicitudin ligula sit amet libero vehicula, et maximus diam dictum. Nunc quis suscipit augue, vitae euismod nunc.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="rooms-2">
+                <h2 class="observer-ready"> amenities </h2>
+                <div class="amenities observer-ready">
+                    <div class="amenities-left">
+                        <p>
+                            " Not just a resort, an experience to enjoy "
+                        </p> 
+                    </div>
+                    <div class="amenities-right">
+                        <div>
+                            <img src="../public/img/icons/wifi.png" alt="">
+                            <p>wifi</p>
+                        </div>
+                        <div>
+                            <img src="../public/img/icons/kitchen.png" alt="">
+                            <p>Kitchenette</p>
+                        </div>
+                        <div>
+                            <img src="../public/img/icons/airconditioner.png" alt="">
+                            <p>air conditioner</p>
+                        </div>
+                        <div>
+                            <img src="../public/img/icons/coffee.png" alt="">
+                            <p>coffee machine</p>
+                        </div>
+                        <div>
+                            <img src="../public/img/icons/tv.png" alt="">
+                            <p>43Inch TV</p>
+                        </div>
+                        <div>
+                            <img src="../public/img/icons/washer.png" alt="">
+                            <p>washer</p>
+                        </div>
+                        <div>
+                            <img src="../public/img/icons/bath.png" alt="">
+                            <p>bath tub</p>
+                        </div>
+                        <div>
+                            <img src="../public/img/icons/hairdryer.png" alt="">
+                            <p>hair dryer</p>
+                        </div>
+                        <div>
+                            <img src="../public/img/icons/nosmoking.png" alt="">
+                            <p>no smoking</p>
+                        </div>
+                        <div>
+                            <img src="../public/img/icons/petfriendly.png" alt="">
+                            <p>pet friendly</p>
+                        </div>       
+                    </div>
+                </div>
+            </section>
+     
+        </div>
+
+        <section class="rooms-3 observer-ready">
+
+            <div class="rooms-gallery">
+                <div class="rooms-gallery-0"></div>
+                <div class="rooms-gallery-1"></div>
+                <div class="rooms-gallery-2"></div>
+                <div class="rooms-gallery-3"></div>
+            </div>
+        </section>
+
+        <section class="rooms-4">
+            <h2 class="observer-ready">activities</h2>
+            <div class="rooms-4-activities-container">
+                <div class="room4-img-1 observer-ready"><p>yoga classes</p></div>
+                <div class="room4-img-2 observer-ready"><p>Kayak classes</p></div>
+                <div class="room4-img-3 observer-ready"><p>swimming classes</p></div>
+                <div class="view-more observer-ready"><p>Explore more activities<button>see all activities</button></p></div>
+            </div>
+        </section>
+
+        <section class="rooms-5">
+            <h2 class="observer-ready">packages</h2>
+            <div class="rooms-5-packages-container">
+                <div class="room5-img-1 observer-ready"><p>restaurant packages</p></div>
+                <div class="room5-img-2 observer-ready"><p>spa packages</p></div>
+                <div class="room5-img-3 observer-ready"><p>golf packages</p></div>
+                <div class="view-more observer-ready"><p>Explore more activities<button>see all packages</button></p></div>
+            </div>
+        </section>
+
+        <%- include('footer.html') %>
+
+        <script src="public/nav.js"></script>
+        <script src="public/io.js"></script>
+        <script src="public/rooms.js"></script>
+     
+
+    </body>
+</html> 

@@ -1,0 +1,337 @@
+section{
+    width: 100vw;
+    padding: 2rem;
+}
+
+h2{
+    text-transform: capitalize;
+    font-size: 2rem;
+    text-align: left; 
+    color: #073032;
+}
+
+.about-0{
+    position: relative;
+    height: 30rem;
+    background-image: url(/public/img/pinetreebg.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.about-0 h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    text-transform: uppercase;
+    font-size: 3em;
+    white-space: nowrap;
+    color: white;
+}
+
+.about-1{
+    margin: 4rem 0;
+}
+
+.about-1-detail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about-img{
+    width:  100%;
+    height: 30rem;
+    background-image: url(./img/mainbg.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+
+.about-text{
+    width: 100%;
+    line-height: 1.4;
+    padding: 2rem;
+}
+
+
+.about-2{
+    background-color: white;
+}
+
+.rooms-gallery{
+    margin: 0 auto;
+}
+
+.rooms-gallery div{
+    background-size: cover;
+    margin: 2rem auto;
+}
+
+.rooms-gallery-0{
+    width: calc(100% - 2rem);
+    height: 30vh;
+    background-image: url(/public/img/tuning.jpg);
+    background-position: right;
+}
+
+.rooms-gallery-1{
+    width: calc(100% - 2rem);
+    height: 30vh;
+    background-image: url(/public/img/insta-imgs/insta-3.jpg);
+    background-position: center;
+}
+.rooms-gallery-2{
+    width: calc(100% - 2rem);
+    height: 30vh;
+    background-image: url(/public/img/petfriendly.jpg);
+}
+.rooms-gallery-3{
+    width: calc(100% - 2rem);
+    height: 30vh;
+    background-image: url(/public/img/section3-bg.jpg);
+}
+.rooms-gallery-4{
+    width: calc(100% - 2rem);
+    height: 30vh;
+    background-image: url(/public/img/restaurant.jpg);
+    background-position: 70%;
+}
+.rooms-gallery-5{
+    width: calc(100% - 2rem);
+    height: 30vh;
+    background-image: url(/public/img/insta-imgs/insta-6.jpg);
+    background-position: 70%;
+}
+
+
+
+
+.rooms-4,.rooms-5{
+    height: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.rooms-4-activities-container div,
+.rooms-5-packages-container div{
+    width: calc(100% - 2rem);
+    height: 50vh;
+    margin: 2rem auto;
+    background-size: cover;
+    background-position: center;
+}
+
+.room4-img-1{
+    background-image: url(/public/img/yoga-class.jpg);
+}
+.room4-img-2{
+    background-image: url(/public/img/kayak-class.jpg);
+}
+.room4-img-3{
+    background-image: url(/public/img/swimming-class.jpg);
+}
+
+.rooms-4-activities-container p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    color: whitesmoke;
+    font-size: 1.5em;
+    background-color: rgba(29, 29, 31, 0.5);
+    opacity: 0;
+    transition: 0.5s;
+    text-transform: capitalize;
+    cursor: pointer;
+}    
+.rooms-4-activities-container>div:hover p{
+    opacity: 1;
+}  
+
+.room5-img-1{
+    background-image: url(/public/img/restaurant.jpg);
+}
+.room5-img-2{
+    background-image: url(/public/img/spa.jpg);
+}
+.room5-img-3{
+    background-image: url(/public/img/golf.jpg);
+}
+
+.rooms-5-packages-container p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    color: whitesmoke;
+    font-size: 1.5em;
+    background-color: rgba(29, 29, 31, 0.5);
+    opacity: 0;
+    transition: 0.5s;
+    text-transform: capitalize;
+    cursor: pointer;
+}    
+.rooms-5-packages-container>div:hover p{
+    opacity: 1;
+}
+
+.view-more{
+    border: 2px solid #D9BBA0;
+}
+
+.view-more p{
+    flex-wrap: nowrap;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 1rem;
+    background-color: white;
+    color: rgb(29, 29, 31);
+    opacity: 1;
+    text-align: center;
+}
+.view-more p::after{
+    content: '';
+    position: absolute;
+    width: 95%;
+    height: 97%;
+    border: 2px solid #D9BBA0;
+}
+
+.view-more p button{
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: white;
+    border: 1px solid #073032;
+    color: #073032;
+    transition: all 0.5s;
+}
+
+.view-more p:hover button{
+    background-color: #073032;
+    border: 1px solid #073032;
+    color: white;
+}
+
+@media(min-width: 600px){
+    .book{
+        flex-direction: row;
+        
+    }
+    .book>div{
+        width: 20%;
+        padding: 0;
+    }
+
+    .book input{
+    width: 70%;
+    }
+    
+    .book>button{
+        margin-bottom: 0;
+    }
+
+    ul.list {
+        justify-content: center;
+        overflow-x: hidden;
+        margin-top: 6rem;
+        padding-bottom: 0;
+      }
+
+    .rooms-1 h2{
+        padding: 2rem;
+        margin-top: 2rem;
+    }
+
+  
+    .about-1-detail{
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .about-img{
+        width: 40%;
+  
+    }
+    
+    .about-text{
+        width: 40%;
+    
+    }
+    
+
+    .rooms-3{
+        height: 100%;
+        padding: 2em;
+    }
+    .rooms-gallery{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-rows: minmax(30vh, auto);
+        gap: 1rem;
+        align-items: center;
+    }
+
+    .rooms-gallery div{
+        width: 100%;
+        height: 100%;
+    }
+
+    .rooms-gallery-0{
+        grid-column: 1/2;
+        grid-row: 1/3;
+    }
+
+    .rooms-gallery-1{
+        grid-column: 2/4;
+    }
+    .rooms-gallery-4{
+        grid-column: 1/3;
+    }
+
+    .rooms-4 h2{
+        margin-top: 4rem;
+    }
+
+    .rooms-4-activities-container,
+    .rooms-5-packages-container{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+
+
+
+}
+
+@media (min-width: 960px) {
+    .book{
+        flex-direction: row;
+    }
+
+    .rooms-1{
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .amenities-right{
+        grid-template-columns: repeat(5, 1fr);
+
+    }
+    
+}
+
+@media (min-width: 1200px) {
+    .room-1-detail .pic-arrow{
+        width: 70vw;
+        top: 35%;
+        
+    }
+}
+@media (min-width: 2000px) {
+    .room-1-detail .pic-arrow{
+        width: 40vw;
+    }
+}
