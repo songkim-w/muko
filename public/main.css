@@ -1,9 +1,62 @@
 body{
     color: rbg(29, 29, 31);
-    background:  #fffffe;
+    background:  #ffffff;
     font-family: 'Playfair Display', serif;
     scroll-behavior: smooth;
+    line-height: 1.4;
 }
+
+.before-load .loading{
+    opacity: 1;
+}
+
+.loading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    background: #F2E2CE;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.loading span{
+    position: absolute;
+    color: #073032;
+}
+
+@keyframes loading-spin {
+    100%{transform: rotate(360deg);}
+}
+
+.loading-circle{
+    width: 128px;
+    height:128px;
+    animation: loading-spin 3s infinite;
+}
+
+@keyframes loading-circle-ani {
+    0%{stroke-dashoffset: 0;}
+    75%{stroke-dashoffset: -147;}
+    100%{stroke-dashoffset: -157;}
+
+}
+
+.loading-circle circle{
+    stroke: #073032;
+    stroke-width: 4;
+    stroke-dasharray: 157;
+    stroke-dashoffset: 0;
+    fill: transparent;
+    animation: loading-circle-ani 1s infinite;
+}
+
+
 
 .container{
     overflow-x: hidden;
@@ -20,6 +73,9 @@ body{
 	transform: translate3d(0, 0, 0);
 }
 
+.open-sans{
+    font-family: 'Open-sans', sans-serif;
+}
 
 main{
     scroll-snap-align: center;
@@ -28,8 +84,6 @@ main{
 .scroll-section{
     width: 100vw;
 }
-
-
 
 .nav{
     position: fixed;
@@ -42,9 +96,7 @@ main{
 }
 
 .nav-scroll{
-    background-color: rgba(7, 48, 70, 0.7);
-    backdrop-filter: saturate(180%) blur(15px);
-    -webkit-backdrop-filter: saturate(180%) blur(15px);
+    background-color:#073032;
     height: 64px;
 }
 
@@ -157,6 +209,7 @@ main{
 
 .menu-open .logo{
     margin: 0 auto; 
+    background-image: url(./img/logo-500px.png);
 }
 
 .menu-open-container{
@@ -185,7 +238,7 @@ main{
 
 .social-networks{
     display: flex;
-    font-size: 0.8em;
+    font-size: 0.6em;
     margin-top: 2rem;
 }
 
@@ -194,8 +247,10 @@ main{
     margin-top: 2em;
 }
 
+
 .menu-open-right a{
-    padding: 1em;
+    font-size: 0.9em;
+    padding: 0.8em;
     font-family: 'Open Sans', sans-serif;
     color: #F2E2CE;
     text-transform: uppercase;
@@ -203,6 +258,7 @@ main{
 }
 
 .menu-open-right a:nth-child(1){
+    font-size: 0.9em;
     border: solid 1px #D9BBA0;
     transition: 0.5s;
 }
@@ -213,6 +269,10 @@ main{
     
 }
 
+
+a.nav-email{
+    text-transform: lowercase;
+}
 
 .section-0{
     position: relative;
@@ -245,7 +305,7 @@ main{
 .section-1{
     width: 100vw;
     height: 100%;
-    background: #FFFBF2;
+    background: #F2E2CE;
     padding: 4em 0 4em 0;
     display: flex;
     justify-content: center;
@@ -265,15 +325,15 @@ main{
 }
 
 .room-1{
-    background-image: url(./img/room-1.jpg);
+    background-image: url(./img/room-4.jpg);
 }
 
 .room-2{
-    background-image: url(./img/room-2.jpg);
+    background-image: url(./img/room-9.jpg);
 }
 
 .room-3{
-    background-image: url(./img/room-3.jpg);
+    background-image: url(./img/room-13.jpg);
 }
 
 .section-1-bg div{
@@ -335,9 +395,6 @@ main{
     opacity: 0.2;
     
 }
-.section-1-room-list:hover .arrow{
-    animation: arrow-ani infinite 1s alternate-reverse;
-}
 
 .arrow span{
     width: 16px;
@@ -371,7 +428,7 @@ main{
 .section-1-right button a{
     display: block;
     padding: 1em;
-    color: #F2E2CE;
+    color: white;
     text-decoration: none;
 }
 
@@ -604,7 +661,7 @@ main{
     flex-direction: column;
     justify-content: center;
     padding: 2em;
-    background-color: #FFFBF2;
+    background-color: #F2E2CE;
 }
 
 .activity-message p{
@@ -617,15 +674,22 @@ main{
     width: 10em;
     padding: 1em;
     background-color: transparent;
-    color: #4376A3;
-    border: 1px solid #4376A3;
+    border: 1px solid #467495;
     transition: 0.5s;
 }
 
+.activity-message button a{
+    color: #467495;
+    text-decoration: none;
+}
+
 .activity-message button:hover{
-    color: white;
-    background-color: #4376A3;
+    background-color: #467495;
     cursor: pointer;
+}
+
+.activity-message button:hover a{
+    color: white;
 }
 
 .section-6{
@@ -635,7 +699,7 @@ main{
     align-items: center;
     position: relative;
     z-index: -1;
-    background-color: #FFFBF2;
+    background-color: #F2E2CE;
 
 }
 
@@ -714,7 +778,7 @@ main{
 
 .section-7-message{
     font-size: 2em;
-    color: #FFFBF2;
+    color: #F2E2CE;
     position: absolute;
     top: -2rem;
     right:-1rem;
@@ -778,7 +842,7 @@ main{
 .section-8-arrow .arrow-right{
     width: 4em;
     height: 4em;
-    border: 1px solid #4376A3;
+    border: 1px solid #467495;
     border-radius: 100%;
 }
 
@@ -856,6 +920,20 @@ footer .copyright{
 
 .fa-angle-left,.fa-angle-right{
     pointer-events: none;
+}
+
+
+.direction{
+    cursor: pointer;
+}
+
+.discover-more{
+    cursor: pointer;
+    margin-top: 1rem;
+    padding: 0.8em;
+    color: white;
+    background-color: #073032;
+    border: none;
 }
 
 @media (min-width: 600px){
@@ -993,7 +1071,6 @@ footer .copyright{
 
 .menu-open-left a{
     font-size: 2em;
-    font-weight: bold;
     margin-bottom: 0.5em;
 }
 

@@ -1,0 +1,169 @@
+section{
+    width: 100vw;
+    padding: 4rem 2rem;
+}
+
+h2{
+    text-transform: capitalize;
+    font-size: 2rem;
+    text-align: left; 
+    color: #073032;
+}
+
+.main-visual{
+    position: relative;
+    height: 30rem;
+    background-image: url(/public/img/pinetreebg.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.main-visual h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    text-transform: uppercase;
+    font-size: 2em;
+    white-space: nowrap;
+    color: white;
+}
+
+.contact-container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.map iframe{
+    width: 100%;
+} 
+
+.contact-info {
+    width: 100%;
+    background-color: #F2E2CE;
+    padding: 1rem;
+
+}
+
+.contact-info h3{
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    padding: 1rem 0 0.5rem 0;
+}
+
+.contact-info div{
+    display: flex;
+    align-items: center;
+}
+
+.contact-info div i{
+    margin-right: 1rem;
+}
+
+.contact-info p{
+    font-family: 'Open-sans', sans-serif;
+}
+
+.contact-info button{
+    margin-top: 1rem;
+    padding: 1rem;
+    border: none;
+    background-color: #073032;
+    color: white;
+    text-transform: capitalize;
+}
+
+.message{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.message h3{
+    font-size: 2rem;
+    text-transform: capitalize;
+    margin-bottom: 2rem;
+}
+
+.form{
+    position: relative;
+}
+
+.form input{
+    width: 95%;
+    padding: 0.8rem 0.8rem 0.8rem 0;
+    margin-bottom: 1rem;
+    text-indent: 5px;
+}
+
+.textarea{
+    width: 95%;
+    height: 20rem;
+    padding: 0.8rem 0.8rem 0.8rem 0;
+    text-align: left;
+    font-family: 'Open-sans', sans-serif;
+    text-indent: 5px;
+    font-size: 1rem;
+}
+
+.send-container{
+    width: 95%;
+    display: flex;
+    justify-content: flex-end;
+    max-width: 1200px;
+}
+
+#send{
+    justify-content: flex-end;
+    width: 100px;
+    margin-top: 1rem;
+    background-color: #073032;
+    color: white;
+    border: none;
+}
+
+
+
+@media(min-width: 600px){
+    .contact-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .map{
+        width: 50%;
+        height: 28rem;
+    }
+
+
+    .contact-info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 50%;
+        height: 28rem;
+        padding-left: 4rem;
+    }
+
+    .contact-info button{
+        width: 7rem;
+    }
+    
+    .form input{
+        width: 100%;
+  
+    }
+    
+    .textarea{
+        width: 100%;
+
+    }
+    
+    .send-container{
+        width: 100%;
+    }
+
+
+}
+

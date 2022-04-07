@@ -1,0 +1,82 @@
+section{
+    width: 100vw;
+    padding: 4rem 2rem;
+}
+
+h2{
+    text-transform: capitalize;
+    font-size: 2rem;
+    text-align: left; 
+    color: #073032;
+}
+
+.open-sans{
+    font-family: 'Open-sans', sans-serif;
+}
+
+.main-visual{
+    position: relative;
+    height: 30rem;
+    background-image: url(/public/img/pinetreebg.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.main-visual h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    text-transform: uppercase;
+    font-size: 2em;
+    white-space: nowrap;
+    color: white;
+}
+
+.qna-list{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 6rem 0;
+}
+
+
+.qna-list li{
+    padding: 1rem 0 1rem 0.5rem;
+    border-top: 1px solid rgba(70, 116, 149, 0.3);
+    border-bottom: 1px solid rgba(70, 116, 149, 0.3);
+    background-color: #f2e2ce;
+    cursor: pointer;
+    text-indent: 1rem;
+
+}
+
+.qna-list ul:first-child{
+    border-top: 2px solid rgba(70, 116, 149, 0.3);
+}
+.qna-list ul:last-child{
+    border-bottom: 2px solid rgba(70, 116, 149, 0.3);
+}
+
+.answer{
+    display: none;
+    padding: 2rem;
+    background-color: white;
+
+    
+}
+
+
+.show.answer{
+    display: block;
+    transition: all 1s;
+}
+
+
+
+@media(min-width: 600px){
+    
+
+
+}
+

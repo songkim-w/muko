@@ -165,6 +165,10 @@
     setElems();
     
     window.addEventListener('load', ()=>{
+
+        document.body.classList.remove('before-load');
+
+
         const io = new IntersectionObserver((entries, observer)=>{
             for(let i = 0; i < entries.length; i++){
                  if(entries[i].isIntersecting){
@@ -187,9 +191,12 @@
          for(let i = 0; i < instaImgs.length; i++){
             instaImgs[i].style.backgroundImage = `url(./public/img/insta-imgs/insta-${i+1}.jpg)`;
          }
-         scrollMenu();
+         scrollMenu(); 
         
-        
+    });
+
+    document.querySelector('.loading').addEventListener('transitionend', (e) => {
+        document.body.removeChild(e.currentTarget);
     });
     
     

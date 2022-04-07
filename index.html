@@ -5,12 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>MUKO resort</title>
+    <link rel="icon" type="image/x-icon" href="public/img/favicon.ico">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="public/default.css">
     <link rel="stylesheet" href="public/main.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.2.0/css/all.css">
   </head>
-  <body>
+  <body class="before-load">
+    <div class="loading">
+        <span>Loading</span>
+        <svg class="loading-circle"> 
+            <circle cx="50%" cy="50%" r="32"></circle>
+        </svg>
+    </div>
       <div class="container">
         <header class="header">
             <nav class="nav">
@@ -36,14 +43,13 @@
                 <div class="menu-open-container">
                     <h1 class="logo menu-open-item"><a href="/"><p>MUKO</p></a></h1>
                     <div class="menu-open-left menu-open-item">
-                        <a href="/rooms">rooms</a>
-                        <a href="/about">about the resort</a>
-                        <a href="/amenities">amenities</a>
-                        <a href="#">activites</a>
-                        <a href="#">packages</a>
-                        <a href="#">location</a>
-                        <a href="#">contact us</a>
-                        <a href="#">faq</a>
+                        <a href="./views/rooms.html">rooms</a>
+                        <a href="./views/about.html">about MUKO</a>
+                        <a href="./views/amenities.html">amenity</a>
+                        <a href="./views/activity.html">activity</a>
+                        <a href="./views/package.html">package</a>
+                        <a href="./views/contact.html">contact us / location</a>
+                        <a href="./views/qna.html">faq</a>
                         <div class="social-networks">
                             <a href="#"><i class="fab fa-instagram"></i></a>
                             <a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -56,6 +62,7 @@
                     <div>
                        <a href="#">book now</a>
                         <a href="#">(705) 256-1313</a>
+                        <a href="#" class="nav-email">info@muko.com</a>
                     </div>
 
                 </div>
@@ -99,7 +106,7 @@
                                 </div>
                             </div>
                         </div>
-                        <button class="observer-ready"><a href="rooms">View more information</a></button>
+                        <button class="observer-ready"><a href="./views/rooms.html">View more information</a></button>
                     </div>
                 </div>
             </section>
@@ -152,29 +159,29 @@
             </section>
             <section class="scroll-section section-4">
                 <div class="scroll-section section-4-container">
-                    <a href="#">
+                    <a href="./views/package.html">
                         <div class="section-4-list list-hover list-1">
-                            <div class="section-4-img restaurant"></div>
-                            <div class="text-container">
-                                <div>
-                                    <h3>Restaurant</h3>
-                                    <p>Savoy cuisines made by local ingredient.</p>
+                                <div class="section-4-img restaurant"></div>
+                                <div class="text-container">
+                                    <div>
+                                        <h3>Restaurant</h3>
+                                        <p>The restaurant that celebrates the best of local produce.</p>
+                                    </div>
+                                    <div class="arrow">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
                                 </div>
-                                <div class="arrow">
-                                    <span></span>
-                                    <span></span>
-                                    <span></span>
-                                </div>
-                            </div>
                         </div>
                     </a>
-                    <a href="#">
+                    <a href="./views/package.html">
                         <div class="section-4-list list-hover list-2">
                             <div class="section-4-img restaurant"></div>
                             <div class="text-container">
                                 <div>
                                     <h3>MUKO Spa</h3>
-                                    <p>Deep relax, and refresh yourself</p>
+                                    <p>Deep relax, and refresh</p>
                                 </div>
                                 <div class="arrow">
                                     <span></span>
@@ -184,7 +191,7 @@
                             </div>
                         </div>
                     </a>
-                    <a href="#">
+                    <a href="./views/package.html">
                         <div class="section-4-list list-hover list-3">
                             <div class="section-4-img restaurant"></div>
                             <div class="text-container">
@@ -222,7 +229,7 @@
                         <div class="activity-list">
                             <div class="activity-message"> 
                                 <p>MUKO promises beautiful moments, promises exciting experiences, and shining memories like shining lakes in Muskoka.</p>
-                                <button>More information</button>
+                                <button><a href="./views/activity.html">More information</a></button>
                             </div>
                         </div>
                     </div>
@@ -289,24 +296,22 @@
                     </div>
                     <div class="footer-menu-links">
                         <div>
-                            <a href="#">rooms</a>
-                            <a href="#">about the resort</a>
-                            <a href="#">accomodations</a>
-                            <a href="#">event</a>
-                            <a href="#">activities</a>
-                        <div>
-                            <a href="#">packages</a>
-                            <a href="#">location</a>
-                            <a href="#">contact us</a>
-                            <a href="#">faq</a> 
-                        </div>
-                    </div>
-
-                </div>
-                <div class="footer-contacts-links">
-                    <a href="#">reservations</a>
-                    <a href="#">(705) 256-1313</a>
-                    <a href="#">(705) 256-1314</a>
+                            <a href="./views/rooms.html">rooms</a>
+                            <a href="./views/about.html">about MUKO</a>
+                            <a href="./views/amenities.html">amenity</a>
+                            <a href="./views/activity.html">activity</a>
+                            <a href="./views/package.html">package</a>
+                            <div>
+                                <a href="./views/contact.html">contact us / location</a>
+                                <a href="./views/qna.html">faq</a> 
+                            </div>
+                       </div>
+                   </div>
+                    <div class="footer-contacts-links">
+                        <a href="#">reservations</a>
+                        <a href="#">(705) 256-1313</a>
+                        <a href="#">(705) 256-1314</a>
+                        <a href="#" class="nav-email">info@muko.com</a>
                     <div>
                         <a href="#"><i class="fab fa-instagram"></i></a>
                         <a href="#"><i class="fab fa-facebook-f"></i></a>
