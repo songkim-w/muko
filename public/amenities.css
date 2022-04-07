@@ -13,7 +13,7 @@ h2{
 .main-visual{
     position: relative;
     height: 30rem;
-    background-image: url(/public/img/hikingtrail.jpg);
+    background-image: url(./img/hikingtrail.jpg);
     background-position: center;
     background-size: cover;
 }

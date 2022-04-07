@@ -34,22 +34,22 @@
     function changeImg(){
        dots.forEach((item, i)=>{
             dots[i].addEventListener('click', ()=>{
-                roomImg0.src = `/public/img/room-${i}.jpg`;
-                roomImg1.src = `/public/img/room-${i}.jpg`;
-                roomImg2.src = `/public/img/room-${i}.jpg`;
-                roomImg3.src = `/public/img/room-${i}.jpg`;
+                roomImg0.src = `../public/img/room-${i}.jpg`;
+                roomImg1.src = `../public/img/room-${i}.jpg`;
+                roomImg2.src = `../public/img/room-${i}.jpg`;
+                roomImg3.src = `../public/img/room-${i}.jpg`;
 
                 tabElems[0].addEventListener('click', ()=>{
-                    roomImg0.src = `/public/img/room-0.jpg`;
+                    roomImg0.src = `../public/img/room-0.jpg`;
                     });
                  tabElems[1].addEventListener('click', ()=>{
-                    roomImg1.src = `/public/img/room-4.jpg`;
+                    roomImg1.src = `../public/img/room-4.jpg`;
                 });
                 tabElems[2].addEventListener('click', ()=>{
-                    roomImg2.src = `/public/img/room-9.jpg`;
+                    roomImg2.src = `../public/img/room-9.jpg`;
                 });
                 tabElems[3].addEventListener('click', ()=>{
-                    roomImg3.src = `/public/img/room-13.jpg`;
+                    roomImg3.src = `../public/img/room-13.jpg`;
                 });
 
             });
