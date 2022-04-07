@@ -13,7 +13,7 @@ h2{
 .rooms-0{
     position: relative;
     height: 30rem;
-    background-image: url(./img/room-0.jpg);
+    background-image: url(img/room-0.jpg);
     background-position: center;
 }
 
@@ -279,25 +279,25 @@ ul.list::after {
 .rooms-gallery-0{
     width: calc(100% - 2rem);
     height: 30vh;
-    background-image: url(./img/mainbg.jpg);
+    background-image: url(img/mainbg.jpg);
     background-position: right;
 }
 
 .rooms-gallery-1{
     width: calc(100% - 2rem);
     height: 30vh;
-    background-image: url(./img/insta-imgs/insta-3.jpg);
+    background-image: url(img/insta-imgs/insta-3.jpg);
     background-position: center;
 }
 .rooms-gallery-2{
     width: calc(100% - 2rem);
     height: 30vh;
-    background-image: url(./img/insta-imgs/insta-1.jpg);
+    background-image: url(img/insta-imgs/insta-1.jpg);
 }
 .rooms-gallery-3{
     width: calc(100% - 2rem);
     height: 30vh;
-    background-image: url(./img/section3-bg.jpg);
+    background-image: url(img/section3-bg.jpg);
 }
 
 .rooms-4,.rooms-5{
@@ -316,13 +316,13 @@ ul.list::after {
 }
 
 .room4-img-1{
-    background-image: url(./img/yoga-class.jpg);
+    background-image: url(img/yoga-class.jpg);
 }
 .room4-img-2{
-    background-image: url(./img/kayak-class.jpg);
+    background-image: url(img/kayak-class.jpg);
 }
 .room4-img-3{
-    background-image: url(./img/swimming-class.jpg);
+    background-image: url(img/swimming-class.jpg);
 }
 
 .rooms-4-activities-container p{
@@ -344,13 +344,13 @@ ul.list::after {
 }  
 
 .room5-img-1{
-    background-image: url(./img/restaurant.jpg);
+    background-image: url(img/restaurant.jpg);
 }
 .room5-img-2{
-    background-image: url(./img/spa.jpg);
+    background-image: url(img/spa.jpg);
 }
 .room5-img-3{
-    background-image: url(./img/golf.jpg);
+    background-image: url(img/golf.jpg);
 }
 
 .rooms-5-packages-container p{

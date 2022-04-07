@@ -13,13 +13,13 @@ h2{
 .main-visual{
     position: relative;
     height: 30rem;
-    background-image: url(./img/lake2.jpg);
+    background-image: url(img/lake2.jpg);
     background-position: center;
     background-size: cover;
 }
 
 .package-visual{
-    background-image: url(./img/section6-imgs/section6-canvas-220.jpg);
+    background-image: url(img/section6-imgs/section6-canvas-220.jpg);
 }
 
 .main-visual::after{
@@ -59,7 +59,7 @@ h2{
 .activity-banner-img{
     width: 100%;
     height: 25rem;
-    background-image: url(./img/insta-imgs/insta-3.jpg);
+    background-image: url(img/insta-imgs/insta-3.jpg);
     background-size: cover;
 }
 .activity-banner-text{
@@ -81,16 +81,16 @@ h2{
 }
 
 .yoga{
-    background-image: url(./img/yoga-class.jpg);
+    background-image: url(img/yoga-class.jpg);
 }
 .swimming{
-    background-image: url(./img/swimming-class.jpg);
+    background-image: url(img/swimming-class.jpg);
 }
 .kayak{
-    background-image: url(./img/kayak-class.jpg);
+    background-image: url(img/kayak-class.jpg);
 }
 .golf{
-    background-image: url(./img/golf.jpg);
+    background-image: url(img/golf.jpg);
 }
 
 .activity-text h3{
@@ -108,23 +108,23 @@ h2{
 }
 
 .package-banner-img{
-    background-image: url(./img/insta-imgs/insta-6.jpg);
+    background-image: url(img/insta-imgs/insta-6.jpg);
 }
 
 .restaurant{
-    background-image: url(./img/restaurant.jpg);
+    background-image: url(img/restaurant.jpg);
 }
 
 .spa{
-    background-image: url(./img/spa.jpg);
+    background-image: url(img/spa.jpg);
 }
 
 .brunch{
-    background-image: url(./img/insta-imgs/insta-5.jpg);
+    background-image: url(img/insta-imgs/insta-5.jpg);
 }
 
 .barbeque{
-    background-image: url(./img/barbequeplace.jpg);
+    background-image: url(img/barbequeplace.jpg);
 }
 
 .activity-text h3{

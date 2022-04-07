@@ -13,7 +13,7 @@ h2{
 .about-0{
     position: relative;
     height: 30rem;
-    background-image: url(./img/mainbg-dark.jpg);
+    background-image: url(img/mainbg-dark.jpg);
     background-position: center;
 }
 
@@ -42,7 +42,7 @@ h2{
 .about-img{
     width:  100%;
     height: 30rem;
-    background-image: url(./img/lake.jpg);
+    background-image: url(img/lake.jpg);
     background-size: cover;
     background-position: bottom;
 }
@@ -70,36 +70,36 @@ h2{
 .rooms-gallery-0{
     width: calc(100% - 2rem);
     height: 30vh;
-    background-image: url(./img/tuning.jpg);
+    background-image: url(img/tuning.jpg);
     background-position: right;
 }
 
 .rooms-gallery-1{
     width: calc(100% - 2rem);
     height: 30vh;
-    background-image: url(./img/insta-imgs/insta-3.jpg);
+    background-image: url(img/insta-imgs/insta-3.jpg);
     background-position: center;
 }
 .rooms-gallery-2{
     width: calc(100% - 2rem);
     height: 30vh;
-    background-image: url(./img/petfriendly.jpg);
+    background-image: url(img/petfriendly.jpg);
 }
 .rooms-gallery-3{
     width: calc(100% - 2rem);
     height: 30vh;
-    background-image: url(./img/section3-bg.jpg);
+    background-image: url(img/section3-bg.jpg);
 }
 .rooms-gallery-4{
     width: calc(100% - 2rem);
     height: 30vh;
-    background-image: url(./img/restaurant.jpg);
+    background-image: url(img/restaurant.jpg);
     background-position: 70%;
 }
 .rooms-gallery-5{
     width: calc(100% - 2rem);
     height: 30vh;
-    background-image: url(./img/insta-imgs/insta-6.jpg);
+    background-image: url(img/insta-imgs/insta-6.jpg);
     background-position: 70%;
 }
 
@@ -122,13 +122,13 @@ h2{
 }
 
 .room4-img-1{
-    background-image: url(./img/yoga-class.jpg);
+    background-image: url(img/yoga-class.jpg);
 }
 .room4-img-2{
-    background-image: url(./img/kayak-class.jpg);
+    background-image: url(img/kayak-class.jpg);
 }
 .room4-img-3{
-    background-image: url(./img/swimming-class.jpg);
+    background-image: url(img/swimming-class.jpg);
 }
 
 .rooms-4-activities-container p{
@@ -150,13 +150,13 @@ h2{
 }  
 
 .room5-img-1{
-    background-image: url(./img/restaurant.jpg);
+    background-image: url(img/restaurant.jpg);
 }
 .room5-img-2{
-    background-image: url(./img/spa.jpg);
+    background-image: url(img/spa.jpg);
 }
 .room5-img-3{
-    background-image: url(./img/golf.jpg);
+    background-image: url(img/golf.jpg);
 }
 
 .rooms-5-packages-container p{

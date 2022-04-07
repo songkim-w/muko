@@ -17,7 +17,7 @@ h2{
 .main-visual{
     position: relative;
     height: 30rem;
-    background-image: url(./img/pinetreebg.png);
+    background-image: url(img/pinetreebg.png);
     background-position: center;
     background-size: cover;
 }

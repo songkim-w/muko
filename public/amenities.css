@@ -13,7 +13,7 @@ h2{
 .main-visual{
     position: relative;
     height: 30rem;
-    background-image: url(./img/hikingtrail.jpg);
+    background-image: url(img/hikingtrail.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -65,28 +65,28 @@ h2{
 }
 
 .kayak{
-    background-image: url(./img/kayak.jpg);
+    background-image: url(img/kayak.jpg);
 }
 .tubing{
-    background-image: url(./img/tuning.jpg);
+    background-image: url(img/tuning.jpg);
 }
 .barbeque{
-    background-image: url(./img/barbequeplace.jpg);
+    background-image: url(img/barbequeplace.jpg);
 }
 .playground{
-    background-image: url(./img/playground.jpg);
+    background-image: url(img/playground.jpg);
 }
 .fireplace{
-    background-image: url(./img/fireplace.jpg);
+    background-image: url(img/fireplace.jpg);
 }
 .hiking{
-    background-image: url(./img/hikingtrail.jpg);
+    background-image: url(img/hikingtrail.jpg);
 }
 .pet{
-    background-image: url(./img/petfriendly.jpg);
+    background-image: url(img/petfriendly.jpg);
 }
 .laundry{
-    background-image: url(./img/laundryservice.jpg);
+    background-image: url(img/laundryservice.jpg);
 }
 
 .amenity-text{
